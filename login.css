@@ -1,2 +1,18 @@
 /*-----------FONTE----------*/
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cor-primaria: #B00B69;
+    --cor-secundaria: #69B00b;
+    --cor-bg: #f5f7fa;
+    --cor-branco:#ffffff;
+    --cor-borda: #dddddd;
+    --cor-sombra: rgba(0, 0, 0, 0.15);
+    --cor-texto: #333;
+
+
+    --fonte: 'Roboto', sans-serif;
+
+    --raio: 0.8rem;
+    --transition: 0.3s ease;
+}
