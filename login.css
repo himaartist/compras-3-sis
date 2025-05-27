@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --cor-primaria: #B00B69;
-    --cor-secundaria: #69B00b;
-    --cor-bg: #f5f7fa;
+    --cor-primaria: #D81E5B;
+    --cor-secundaria: #EB5E55;
+    --cor-bg: #3A3335;
     --cor-branco:#ffffff;
-    --cor-borda: #dddddd;
+    --cor-borda: #FDF0D5;
     --cor-sombra: rgba(0, 0, 0, 0.15);
     --cor-texto: #333;
 
@@ -15,4 +15,16 @@
 
     --raio: 0.8rem;
     --transition: 0.3s ease;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{ 
+    font-family: var(--fonte);
+    background-color: background: #3A3335;
+background: linear-gradient(90deg, rgba(58, 51, 53, 1) 0%, rgba(130, 21, 57, 1) 50%, rgba(58, 51, 53, 1) 100%);
 }
