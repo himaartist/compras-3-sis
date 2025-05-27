@@ -26,8 +26,5 @@
 body{ 
     font-family: var(--fonte);
     background-color: background: #3A3335;
-background: -webkit-linear-gradient(0deg, rgba(58, 51, 53, 1) 0%, rgba(216, 30, 91, 1) 50%, rgba(58, 51, 53, 1) 100%);
-background: -moz-linear-gradient(0deg, rgba(58, 51, 53, 1) 0%, rgba(216, 30, 91, 1) 50%, rgba(58, 51, 53, 1) 100%);
-background: linear-gradient(0deg, rgba(58, 51, 53, 1) 0%, rgba(216, 30, 91, 1) 50%, rgba(58, 51, 53, 1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3A3335", endColorstr="#3A3335", GradientType=0);
+background: linear-gradient(22deg, rgba(58, 51, 53, 1) 0%, rgba(173, 23, 73, 1) 50%, rgba(58, 51, 53, 1) 100%);
 }
