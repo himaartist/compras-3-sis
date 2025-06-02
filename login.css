@@ -47,6 +47,7 @@ background: linear-gradient(90deg, rgba(58, 51, 53, 1) 0%, rgba(173, 19, 71, 1) 
 }
 
 .titulo {
+     font-family: "Exo", sans-serif;
     font-size: clamp( 1.5rem, 2vw + 1rem, 2rem);
     color: var(--cor-texto);
     margin-bottom: 1.5rem;
