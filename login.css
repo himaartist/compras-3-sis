@@ -92,6 +92,7 @@ button{
 }
 button:hover{
     background-color: var(--cor-bg);
+    color: var(--cor-primaria);
 }
 
 @media(max-width: 360px){
