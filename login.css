@@ -36,7 +36,7 @@ background: linear-gradient(90deg, rgba(58, 51, 53, 1) 0%, rgba(173, 19, 71, 1) 
 
 }
 
-.container{
+.conteiner {
     background: var(--cor-borda);
     padding: clamp(2rem, 5vw, 3rem);
     border-radius: var(--raio);
