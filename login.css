@@ -55,3 +55,20 @@ background: linear-gradient(90deg, rgba(58, 51, 53, 1) 0%, rgba(173, 19, 71, 1) 
     margin-bottom: 1.5rem;
     font-weight: 500;
 }
+
+input{
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--raio);
+    font-size: 11rem;
+    transition: var(--transition);
+
+}
+
+input:focus{
+    border-color: var(--cor-primaria);
+    outline: none;
+    box-shadow: var(--cor-sombra);
+}
