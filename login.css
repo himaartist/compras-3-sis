@@ -62,7 +62,7 @@ input{
     margin: 10px 0;
     border: 1px solid var(--cor-borda);
     border-radius: var(--raio);
-    font-size: 11rem;
+    font-size: 1rem;
     transition: var(--transition);
 
 }
