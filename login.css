@@ -28,4 +28,27 @@ body{
     background: #3A3335;
 background: linear-gradient(-180deg, rgba(58, 51, 53, 1) 0%, rgba(173, 19, 71, 1) 50%, rgba(58, 51, 53, 1) 100%);
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+
+}
+
+.container{
+    background: var(--cor-bg);
+    padding: clamp(2rem, 5vw, 3rem);
+    border-radius: var(--raio);
+    box-shadow: 0 8px 24px var(--cor-sombra);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.titulo {
+    font-size: clamp( 1.5rem, 2vw + 1rem, 2rem);
+    color: var(--cor-texto);
+    margin-bottom: 1.5rem;
+    font-weight: 500;
 }
