@@ -9,6 +9,8 @@
     --cor-borda: #FDF0D5;
     --cor-sombra: rgba(0, 0, 0, 0.15);
     --cor-texto: #333;
+    --cor-gradiente: #3A3335;
+background: linear-gradient(180deg, rgba(58, 51, 53, 1) 15%, rgba(173, 19, 71, 1) 50%, rgba(58, 51, 53, 1) 88%);
 
 
     --fonte: 'Exo', sans-serif;
@@ -37,7 +39,7 @@ background: linear-gradient(90deg, rgba(58, 51, 53, 1) 0%, rgba(173, 19, 71, 1) 
 }
 
 .conteiner {
-    background: var(--cor-texto);
+    background: var(--cor-gradiente);
     padding: clamp(2rem, 5vw, 3rem);
     border-radius: var(--raio);
     box-shadow: 0 8px 24px var(--cor-sombra);
