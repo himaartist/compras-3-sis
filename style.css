@@ -22,7 +22,6 @@ body {
   align-items: center;
 
 
-  :root {
     --cor-primaria: #D81E5B;
     --cor-secundaria: #EB5E55;
     --cor-bg: linear-gradient(180deg, rgba(58, 51, 53, 1) 15%, rgba(173, 19, 71, 1) 50%, rgba(58, 51, 53, 1) 88%);
@@ -39,7 +38,6 @@ body {
     --raio: 0.8rem;
     --transition: 0.3s ease;
 
-}
 }
 
 #logo {
