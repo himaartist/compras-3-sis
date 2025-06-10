@@ -13,7 +13,7 @@
 
 body {
   font-family: var(--fonte);
-  background-color: var(--cor-escura);
+  background-color: var(--cor-bg);
   padding: 2rem;
   min-height: 100vh;
   color: var(--cor-texto);
