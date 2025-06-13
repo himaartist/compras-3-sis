@@ -30,7 +30,7 @@
 
 body {
   font-family: var(--fonte);
-  background: linear-gradient(180deg, rgba(58, 51, 53, 1) 15%, rgba(173, 19, 71, 1) 50%, rgba(58, 51, 53, 1) 88%);
+  background-color: var(--cor-bg);
   padding: 2rem;
   min-height: 100vh;
   color: var(--cor-texto);
